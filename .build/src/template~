@@ -1,0 +1,55 @@
+\documentclass{{letter}}
+\usepackage[margin=.7in,foot=17pt]{{geometry}}
+\usepackage{{hyperref }}
+\usepackage{{fancybox}}
+\usepackage{{fancyhdr}}
+
+\signature{{ \vspace{{-30pt}} {name} }}
+\address{{ {streetAdd1} {streetAdd2} \\ {city} \\ {state} , {zip} }}
+\longindentation=0pt
+
+\pagestyle{{fancy}}
+\lfoot{{\fbox{{\parbox{{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}}{{This form letter is provided by the Boulder Committee on Rights and Compensation (CRC) as a courtesy to all graduate workers. The CRC has made no assessment as to the validity of the demand.}}}}}} 
+
+\pagenumbering{{gobble}}
+
+
+\begin{{document}}
+
+  \begin{{letter}}{{
+        Director of Human Resources \\
+        Alisha Bennett \\
+        1111 Engineering Drive, 422 UCB \\
+        Boulder \\
+        CO 80309-0422
+    }}
+    
+\opening{{ Dear Employer, }}
+\thispagestyle{{fancy}}
+You owe me outstanding wages or compensation.  According to Colorado Law:
+\begin{{itemize}}
+  \item All wages and compensation shall be due and payable on regular paydays no later than ten days following the close of each pay period, unless the employer and employee mutuall agree on an alternative period \href{{https://www.colorado.gov/pacific/cdle/node/19911}}{{C.R.S \S 8-4-103(1)(a)}}
+
+  \item If termination of employment by the employer occurs, wages and compensation are due and payable IMMEDIATELY unless one of the following exceptions is met:
+
+  \begin{{enumerate}}
+	\item If the employer's accounting unit, responsible for payroll checks is not regularly schedules to be operational, wages are due and payable no later than siz hours after the start of the employer's accounting unit's next regular workday, or
+	\item If the employer's accounting unit is located off the work site, the employer shall deliver the check for wages due no later than twenty-four hours after the start of the accounting unit's next regular workday. \href{{https://www.colorado.gov/pacific/cdle/node/19911}}{{C.R.S \S 8-4-109(1)(a)}}
+  \end{{enumerate}}
+
+  \item If the employee quits or resigns, wages and compensation are due and payable upon the next regular payday. \href{{https://www.colorado.gov/pacific/cdle/node/19911}}{{C.R.S \S 8-4-109(1)(b)}}
+  
+\end{{itemize}}
+
+I hereby make a formal demand of payment of wages and compensation due me in according with Title 8 Article 4 of Colorado Revised Statues, as amended. Refusal to pay within 14 days of the sending othis demand may subject you to a penalty of 125\% of the amount owed, or up to 10 days of my average daily earnings, whichever is greater, pursuant to \href{{https://www.colorado.gov/pacific/cdle/node/19911}}{{C.R.S \S 8-4-109}}.  In addition, fines of up to 50 dollars per day commencing from the date that such wages first became due and payable may be assessed, pursuant to \href{{https://www.colorado.gov/pacific/cdle/node/19911}}{{C.R.S \S 8-4-113}}
+
+\closing{{Regards,}}
+
+\bigskip
+
+\begin{{center}}
+\doublebox{{ \parbox{{.9\linewidth}}{{\textit{{I am owed approximately}} \textbf{{\${amtOwed}}} \textit{{for the following wages or compensation}}:\\ {explanation} }}}}
+\end{{center}}
+
+\end{{letter}}
+\end{{document}}
